@@ -1,0 +1,583 @@
+body{
+	padding: 0px ;
+	margin: 0px;
+	background-color: #DFE3EE;
+	font-family: sans-serif;
+}
+ /*############ Start of Header Section ################ */
+ .header{
+	background-color: #3b5998;
+	height: 82px;
+}
+.header h1{
+	color: white;
+	margin-top: 25px;
+	font-size: 42px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.header form{
+	margin-top: 18px;
+	float: right;
+}
+.header li{
+	list-style-type: none;
+	float: left;
+	color: white;
+}
+.header form li{
+	font-size: 12px;
+	margin-left: 15px;
+}
+.header form li a{
+	text-decoration: none;
+	color: #FFF
+}
+.header form li a:hover{
+	text-decoration: none;
+}
+.header form input[type="text"]{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 150px;
+	border: 1px solid #133783;
+	height: 20px;
+	padding-left: 2px;
+    outline: none;
+}
+.header form input[type="password"]{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 150px;
+	border: 1px solid #133783;
+	height: 20px;
+	padding-left: 2px;
+    outline: none;
+}
+.header form input[type="button"]{
+	margin-top: 16px;
+	height: 23px;
+	border: 1px solid #133783;
+	color: white;
+	background-color: #4267B2;
+    outline: none;
+    padding-left: 2px;
+}
+.header form input[type="button"]:hover{
+	background-color: #29487d;
+}
+/* ################ End of Header Section ############*/
+.r_mpage{
+	width: 415px;
+	height: 580px;
+}
+.r_heading{
+	width: 415px;
+	height: 80px;
+	/*border: 1px solid blue;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.r_heading span{
+	font-size: 36px;
+	color: #333;
+	font-weight: 600;
+	float: left;
+	font-family: sans-serif;
+}
+.subline{
+	font-size: 19px;
+	color: #4b4f56;
+	font-weight: normal;
+	float: left;
+	font-family: sans-serif;
+	margin-top: 10px;
+}
+.signup_form{
+	width: 415px;
+	height: 456px;
+	/*border: 1px solid gray;*/
+}
+ /*##############Name to Pass area Style  Start################ */
+.fullname{
+	width: 415px;
+	height: 49px;
+	/*border: 1px solid blue;*/
+	font-family: sans-serif;
+	float: left;
+}
+.fname input[type="text"]{
+	width: 198px;
+	height: 40px;
+	margin-right:8px;
+	margin-bottom: 10px;
+	float: left;
+	border: 0.5px solid lightgray;
+	border-radius: 5px;
+	outline: none;
+	padding: 0 0 0 0;
+	padding-left: 10px;
+	font-size: 18px;
+	
+}
+.sname input[type="text"]{
+	width: 198px;
+	height: 40px;
+	margin-bottom: 10px;
+	float: right;
+	border: 0.5px solid lightgray;
+	border-radius: 5px;
+	outline: none;
+	padding: 0 0 0 0;
+	/* box-sizing: border-box; */
+	padding-left: 10px;
+	font-size: 18px;
+	
+}
+
+::placeholder{
+	color: #999999;
+	font-size: 18px;
+	text-align: left;
+}
+.mail_pass{
+	width: 415px;
+	height: 98px;
+	/*border: 1px solid red;*/
+	font-family: sans-serif;
+	float: left;
+}
+.mail_phn input[type="text"]{
+	width: 415px;
+	height: 39px;
+	margin-bottom: 10px;
+	border: 0.5px solid lightgray;
+	border-radius: 5px;
+	outline: none;
+	padding: 0 0 0 0;
+	padding-left: 10px;
+	font-size: 18px;
+}
+.n_pass input[type="password"]{
+	width: 415px;
+	height: 39px;
+	margin-bottom: 10px;
+	border: 0.5px solid lightgray;
+	border-radius: 5px;
+	outline: none;
+	padding: 0 0 0 0;
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+ /* Birthday Date Area Start */
+.birthdate_box{
+	width: 415px;
+	height: 65px;
+	/*border: 1px solid black;*/
+	font-family: sans-serif;
+	float: left;
+}
+.birth_head{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #90949c;
+	font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif;
+}
+.birthdate_main{
+	width: 415px;
+	height: 30px;
+	/*border: 1px solid red;*/
+}
+._day{
+	float: left;
+	font-size: 13px;
+	width: 58px;
+    height: 30px;
+    padding: 5px;
+    vertical-align: top;
+    background-color: #fff;
+    color: #1c1e21;
+    border: 1px solid #ccd0d5;
+}
+._month{
+	float: left;
+	font-size: 13px;
+	width: 75px;
+    height: 30px;
+    padding: 5px;
+    vertical-align: top;
+    background-color: #fff;
+    color: #1c1e21;
+    border: 1px solid #ccd0d5;
+}
+._year{
+	float: left;
+	font-size: 13px;
+	width: 67px;
+    height: 30px;
+    padding: 5px;
+    vertical-align: top;
+    background-color: #fff;
+    color: #1c1e21;
+    border: 1px solid #ccd0d5;    
+}
+.birthdate_main button {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+	border-style: none;
+	
+}
+.birthdate_main button img{
+	width: 18px;
+	height: 18px;
+	background-size: auto;
+    background-repeat: no-repeat;
+	margin-left: -8px;
+	margin-top: -3px;
+	cursor: pointer;
+
+}
+/* Birthday Date Area Start */
+/* Gender Area Start */
+.gender_box{
+	width: 415px;
+	height: 65px;
+	/*border: 1px solid black;*/
+	font-family: sans-serif;
+	float: left;
+}
+.gender_head{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #90949c;
+	font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif;
+}
+.gender_main{
+	width: 415px;
+	height: 32px;
+	/*border: 1px solid red;*/
+}
+.gender_list{
+	float: left;
+	width: 285;
+	height: 31px;
+	/*border: 1px solid yellow;*/
+    color: #1c1e21;
+}
+.gender_list input[type="radio"]{
+	cursor: default;
+    appearance: radio;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+.gender_list label{
+	color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+    vertical-align: middle;
+}
+.gender_main button {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+	border-style: none;
+	
+}
+.gender_main button img{
+	width: 18px;
+	height: 18px;
+	background-size: auto;
+    background-repeat: no-repeat;
+	margin-left: -8px;
+	margin-top: -3px;
+	cursor: pointer;
+
+}
+
+                            /* Gender Area End */
+                          /* Term and policy Start */
+.tnp_box{
+	float: left;
+	width: 415px;
+	height: 56px;
+}
+.tnp_box p {
+	color: #777;
+    font-size: 11px;
+    width: 316px;
+    text-align: left;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+.tnp_box a {
+	text-decoration: none;
+	color: #385898;
+	cursor:pointer;
+}
+.tnp_box a:hover {
+	text-decoration: underline;
+	color: #385898;
+	cursor:pointer;
+}
+ /* ###############Term and policy End################ */
+
+/*##############Signup Button Start################ */
+.signup_button{
+	float: left;
+	width: 415px;
+	height: 59px;
+	
+}
+.signup_button> .btn{
+	float: left;
+	font-size: 19px;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+    line-height: 126%;
+    width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+/* ######### footer section ############## */
+.bg-ground{
+    background-color: #ffff
+}
+.footer ul{
+	list-style-type: none;
+}
+.footer_head{
+	padding-top: 8px;
+	float: left;
+	align-items: center;
+	color: #737373;
+}
+.footer_head li {
+	text-decoration: none;
+	float: left;
+	font-size: 12px;
+}
+.footer_head li a{
+	text-decoration: none;
+	font-size: 12px;
+	padding-left: 10px;
+	color: #385898;
+}
+.footer_head li a:hover{
+	text-decoration: underline;
+	
+}
+.footer_head li button{
+	text-decoration: none;
+	width: 18px;
+	height: 18px;
+    line-height: 18px;
+	font-size: 22px;
+	margin-left: 10px;
+    padding: 0px 2px 15px;
+    color: #4b4f56;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+.footer_mid{
+	width: 980px;
+	height: 57px;
+	float: left;
+	color: #737373;
+}
+.footer_mid li {
+	text-decoration: none;
+	vertical-align: top;
+	float: left;
+	font-size: 12px;
+	padding-right: 15.5px;
+	padding-bottom: 5px;
+}
+.footer_mid li a{
+	text-decoration: none;
+	vertical-align: top;
+	float: left;
+	font-size: 12px;
+	color: #385898;
+    cursor: pointer;
+}
+.footer_mid li a img{
+	text-decoration: none;
+	vertical-align: middle;
+	margin-top: -5px;
+	padding-left: 3px;
+	padding-right: 40px;
+    cursor: pointer;
+}
+.footer_mid li a:hover{
+	text-decoration: underline;
+	
+}
+.copyright{
+	width: 980px;
+	/*border: 1px solid gray;*/
+	float: left;
+	font-size: 11px;
+	color: #737373;
+}
+.copyright h4{
+	font-size: 11px;
+	color: #737373;
+	font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 10px;
+	font-weight: normal;
+}
+/* ########## End of Footer section ############# */
+
+.form-control-1 {
+	/* margin-bottom: 10px;
+	padding-bottom: 20px; */
+	position: relative;
+}
+.form-control-2 {
+	/* margin-bottom: 10px;
+	padding-bottom: 20px; */
+	position: relative;
+}
+
+
+.form-control-1 input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control-2.error input {
+	border: 2px solid #e74c3c;
+}
+.form-control-1.error input {
+	border: 2px solid #e74c3c;
+}
+.form-control-1.error select{
+	border: 2px solid #e74c3c;
+	
+}
+.form-control-1.error input[type="radio"] {
+	border-color: #e74c3c;
+	background: 2px solid #e74c3c; ;
+}
+
+.form-control-2 i {
+	visibility: hidden;
+	position: absolute;
+	top: 12px;
+    right: 230px;
+	font-size: 20px;
+} 
+.form-control-1 i {
+	visibility: hidden;
+	position: absolute;
+	top: 12px;
+    right: 12px;
+	font-size: 20px;
+} 
+
+.form-control-1.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+.form-control-2.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+.form-control-1.success input {
+	border-color:#fdfdfd;
+}
+.form-control-2.success input {
+	border-color: #fdfdfd;
+}
+
+
+/* =========================
+   TOOLTIPS
+   ========================= */
+   .final__tooltip {
+    position: relative; 
+   }
+   .final__tooltip:before {
+     position: absolute;
+     z-index: 2;
+     display: none;
+     width: 330px;
+     padding: 10px;
+     font-size: 0.8em;
+     border-radius: 5px;
+     background-color: rgba(197, 15, 15, 0.8);
+     color: white;
+     content: attr(title);
+   }
+   .final__tooltip:after {
+     position: absolute;
+     z-index: 1;
+     display: none;
+     width: 0;
+     height: 0;
+     border: 5px solid transparent;
+     content: "";
+   }
+   .final__tooltip:hover:before,
+   .final__tooltip:hover:after {
+     display: inline-block;
+   }
+
+   .final__tooltip.left:before {
+	top: 50%;
+     right: calc(100% + 5px);
+     transform: translateY(-50%);
+   }
+   .final__tooltip.left:after {
+	   top: 50%;
+     right: 100%;
+     transform: translateY(-50%);
+     border-right-width: 0;
+     border-left-color: rgba(197, 15, 15, 0.8);
+   }
+   .final__tooltip.right:before {
+	   top: 50%;
+	   margin-top: 20px;
+    left: calc(100% + 5px);
+    transform: translateY(-50%);
+  }
+  .final__tooltip.right:after {
+	top: 50%;
+	margin-top: 20px;
+    left: 100%;
+    transform: translateY(-50%);
+    border-left-width: 0;
+    border-right-color: rgba(197, 15, 15, 0.8);
+  }
+  .final__tooltip.left {
+	visibility: visible;
+  }
+  /* ############## End of Tooltip ##### */

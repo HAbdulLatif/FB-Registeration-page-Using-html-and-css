@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- end of bootstrap file -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- custom css end -->
+    <title>FB Registration</title>
+</head>
+<body>
+    <!-- Header section -->
+    <Section id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1>facebook</h1>
+                </div>
+                <div class="col-6">
+                    <form>
+                        <li>Email or Phone<br><input type="text" name="Email"></li>
+                        <li>Password<br><input type="password" name="password"><br><a href="">Forgotten account?</a></li>
+                        <li><input type="button" name="login" value="Log In"></li>
+                    </form>
+            </div>
+            </div>
+        </div>
+    </Section>
+        <!-- End of Header Section -->
+        <!-- Form Section -->
+        <section id="form" class="pt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="r_mpage mx-auto">
+                            <div class="r_heading">
+                                <span>Create an account</span>
+                                <div class="subline">It's quick and easy.</div>
+                            </div>
+                            <!--Signup Form Start-->
+                            <div class="signup_form">
+                                <form id="form">
+                                    <div class="fullname ">
+                                        <div class="fname">
+                                            <div class="final__tooltip left" title="What's your First name?" id="tooltip-button">
+                                            <div class="form-control-2">
+                                            <input type="text" name="firstname" placeholder="First name" id="Firstname">
+                                            <i class="fas fa-exclamation-circle"></i>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        
+                                        <div class="sname">
+                                            <div class="final__tooltip right" title="What's your Sur name?" id="tooltip-button">
+                                            <div class="form-control-1">
+                                            <input type="text" name="surname" placeholder="Surname" id="Lastname">
+                                            <i class="fas fa-exclamation-circle"></i>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="mail_pass ">
+                                        <div class="mail_phn">
+                                            <div class="final__tooltip left" id="tooltip-button" title="You'll use this when you log in and if you ever need to reset your password.">
+                                            <div class="form-control-1">
+                                            <input type="text" name="mail" placeholder="Mobile number or email address" id="email">
+                                            <i class="fas fa-exclamation-circle"></i>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="n_pass ">
+                                            <div class="final__tooltip left" id="tooltip-button" title="Enter a combination of at least eight numbers, letter and punctuation marks (such as ! and &)">
+                                            <div class="form-control-1">
+                                            <input type="password" name="password" placeholder="New password" id="password">
+                                            <i class="fas fa-exclamation-circle"></i>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                
+                                    <!--Birthday wrapper End-->
+                                    <div class="birthdate_box ">
+                                        <div class="birth_head">Date of birth</div>
+                                        <div class="final__tooltip left" id="tooltip-button" title="It looks like you've entered the wrong info. Please make sure that you use your real date of birth.">
+                                        <div class="birthdate_main form-control-1 ">
+                                                    <select name="day" title="Day" class="_day" id="day">
+                                                        <option value=""> Day </option>
+                                                        <option>1</option><option>2</option>
+                                                        <option>3</option><option>4</option>
+                                                        <option>5</option><option>6</option>
+                                                        <option>7</option><option>8</option>
+                                                        <option>9</option><option>10</option>
+                                                        <option>11</option><option>12</option>
+                                                        <option>13</option><option>14</option>
+                                                        <option>15</option><option>16</option>
+                                                        <option>17</option><option>18</option>
+                                                        <option>19</option><option>20</option>
+                                                        <option>21</option><option>22</option>
+                                                        <option>23</option><option>24</option>
+                                                        <option>25</option><option>26</option>
+                                                        <option>27</option><option>28</option>
+                                                        <option>29</option><option>30</option>
+                                                        <option>31</option>
+                                                    </select>
+                                                    <select name="month" title="Month" class="_month" id="month">
+                                                        <option value=""> Month </option>
+                                                        <option>Jan</option><option>Feb</option>
+                                                        <option>Mar</option><option>Apr</option>
+                                                        <option>May</option><option>Jun</option>
+                                                        <option>Jul</option><option>Aug</option>
+                                                        <option>Sep</option><option>Oct</option>
+                                                        <option>Nov</option><option>Dec</option>
+                                                    </select>
+                                                    <select name="year" title="Year" class="_year" id="year">
+                                                        <option value=""> Year </option>
+                                                        <option>2021</option><option>2020</option>
+                                                        <option>2019</option><option>2018</option>
+                                                        <option>2017</option><option>2016</option>
+                                                        <option>2015</option><option>2014</option>
+                                                        <option>2013</option><option>2012</option>
+                                                        <option>2011</option><option>2010</option>
+                                                        <option>2009</option><option>2008</option>
+                                                        <option>2007</option><option>2006</option>
+                                                        <option>2005</option><option>2004</option>
+                                                        <option>2003</option><option>2002</option>
+                                                        <option>2001</option><option>2000</option>
+                                                        <option>1999</option><option>1998</option>
+                                                        <option>1997</option><option>1996</option>
+                                                        <option>1995</option><option>1994</option>
+                                                        <option>1993</option><option>1992</option>
+                                                        <option>1991</option><option>1990</option>
+                                                        <option>1989</option><option>1988</option>
+                                                        <option>1987</option><option>1986</option>
+                                                        <option>1985</option><option>1984</option>
+                                                        <option>1983</option><option>1982</option>
+                                                        <option>1981</option><option>1980</option>
+                                                        <option>1979</option><option>1978</option>
+                                                        <option>1977</option><option>1976</option>                                                  <option>2008</option><option>2009</option>
+                                                        <option>1975</option><option>1974</option>
+                                                        <option>1973</option><option>1972</option>
+                                                        <option>1971</option><option>1970</option>
+                                                        <option>1969</option><option>1968</option>
+                                                        <option>1967</option><option>1966</option>
+                                                        <option>1965</option><option>1964</option>
+                                                        <option>1963</option><option>1962</option>
+                                                        <option>1961</option><option>1960</option>
+                                                    </select>
+                                                    <i class="fas fa-exclamation-circle"></i>
+                                                
+                                        
+                                                
+                                    
+                                            </div>
+                                            <!-- <button><img src="images/qmark.png" title="Click for more information"></button> -->
+                                        
+                                        </div>
+                                    </div> 	
+                                
+                                    <!--Birthday wrapper End-->
+                                    <!--Gender start-->
+                                <div class="gender_box">
+                                        <div class="gender_head">Gender</div>
+                                        <div class="final__tooltip left" id="tooltip-button" title="Please choose a gender. you can change who can see this later.">
+                                        <div class="gender_main gender_list ">
+                                            <div class="form-control-1" >
+                                                <input type="radio" name="sex" id="gender" >
+                                                <label>Female</label>
+                                                <input type="radio" name="sex" id="gender" >
+                                                <label>Male</label>
+                                                <input type="radio" name="sex" id="gender" >
+                                                <label>Custom</label>
+                                            <i class="fas fa-exclamation-circle"></i>
+                                            <!-- <button><img src="images/qmark.png" title="Click for more information"></button> -->
+                                        </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <!--Gender End--> 	
+                                    <div class="tnp_box">
+                                        <p>
+                                            By clicking Sign Up, you agree to our <a href="">Terms</a>,<a href="">Data Policy</a>&nbsp;and <a href="">Cookie Policy</a>.&nbsp;You may receive SMS notifications from us and can opt out at any time.
+                                        </p>
+                                    </div>
+                                    <div class="signup_button">
+                                    <a href="#" class="btn" id="regbtn">Sign Up</a> 
+                                    </div>
+                                </form>	
+                            </div>
+                            <!--Signup Form Start-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Form Section -->
+        <!-- footer section -->
+        <section id="footer" class="bg-ground pt-5 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="footer_area">
+                            <div class="footer">
+                                <ul class="footer_head">
+                                    <li>English (UK)</li>
+                                    <li><a href="" title="Urdu">اردو</a></li>
+                                    <li><a href="" title="Pashto">پښتو</a></li>
+                                    <li><a href="" title="Arabic">العربية</a></li>
+                                    <li><a href="" title="Hindi">हिन्दी</a></li>
+                                    <li><a href="" title="Punjabi">ਪੰਜਾਬੀ</a></li>
+                                    <li><a href="" title="Bengali">বাংলা</a></li>
+                                    <li><a href="" title="German">Deutsch</a></li>
+                                    <li><a href="" title="Gujrati">ગુજરાતી</a></li>
+                                    <li><a href="" title="Persian">فارسی</a></li>
+                                    <li><a href="" title="Spanish">Español</a></li>
+                                    <li><button title="Show more languages">+</button></li>
+                                </ul>
+                                <ul class="footer_mid">
+                                    <li><a href="" title="Sign up for Facebook">Sign Up</a></li>
+                                    <li><a href="" title="Log in to Facebook">Log In</a></li>
+                                    <li><a href="" title="Take a look at Messenger.">Messenger</a></li>
+                                    <li><a href="" title="Facebook Lite for Android.">Facebook Lite</a></li>
+                                    <li><a href="" title="Browse our Watch videos."> Watch </a></li>
+                                    <li><a href="" title="Browse our people directory.">People</a></li>
+                                    <li><a href="" title="Browse our Pages directory.">Pages</a></li>
+                                    <li><a href="" title="">Page categories</a></li>
+                                    <li><a href="" title="Take a look at popular places on Facebook.">Places</a></li>
+                                    <li><a href="" title="Check out Facebook games.">Games</a></li>
+                                    <li><a href="" title="Browse our places directory.">Locations</a></li>
+                                    <li><a href="" title="Log in to Facebook">Log In</a></li>
+                                    <li><a href="" title="Buy and sell on Facebook Marketplace.">Marketplace</a></li>
+                                    <li><a href="" title="Learn more about Facebook Pay">Facebook Pay</a></li>
+                                    <li><a href="" title="Browse our Groups directory.">Groups</a></li>
+                                    <li><a href="" title="Learn more about Oculus">Oculus</a></li>
+                                    <li><a href="" title="Learn more about Portal from Facebook">Portal</a></li>
+                                    <li><a href="" title="Take a look at Instagram">Instagram</a></li>
+                                    <li><a href="" title="Browse our Local Lists directory.">Local</a></li>
+                                    <li><a href="" title="Donate to worthy causes.">Fundraisers</a></li>
+                                    <li><a href="" title="Browse our Facebook Services directory.">Services</a></li>
+                                    <li><a href="" title="Read our blog, discover the resource centre and find job opportunities.">About</a></li>
+                                    <li><a href="" title="Advertise on Facebook">Create ad</a></li>
+                                    <li><a href="" title="Create a Page">Create Page</a></li>
+                                    <li><a href="" title="Develop on our platform.">Developers</a></li>
+                                    <li><a href="" title="Make your next career move to our brilliant company.">Careers</a></li>
+                                    <li><a href="" title="Learn about your privacy and Facebook.">Privacy</a></li>
+                                    <li><a href="" title="Learn about cookies and Facebook.">Cookies</a></li>
+                                    <li><a href="" title="Learn about AdChoices.">AdChoices</a></li>
+                                    <li><a href="" title="Review our terms and policies.">Terms</a></li>
+                                    <li><a href="" title="Visit our Help Centre.">Help</a></li>
+                                    
+                                </ul>
+                                <span class="copyright"><h4>Facebook © 2021</h4></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of footer section -->
+    <script src="javascript/validation.js"></script>
+</body>
+</html>
