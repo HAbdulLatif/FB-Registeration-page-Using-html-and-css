@@ -1,0 +1,248 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+/* ############# Login Page ############## */
+
+
+.main-container{
+
+    padding-top: 92px ;
+    padding-bottom: 112px;
+}
+.color{
+    background: rgb(240, 242, 245);
+    min-width: 500px;
+}
+.middle-container{
+    margin: 0 auto;
+    width: 940px;
+    display: flex;
+    /* border: 3px solid blue; */
+
+}
+.left-container{
+    width: 500px;
+    /* border: 3px solid grey; */
+    height: 455px;
+    padding-right: 30px;
+}
+.image-adjust{
+    padding: 112px 0 16px;
+    /* border: 3px solid black; */
+}
+.set-image{
+    height: 106px;
+    margin: -28px;
+    /* border: 3px solid red; */
+}
+.after-imagetext{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    /* border: 3px solid yellow; */
+}
+.left-container > h2{
+    margin: 0;
+}
+
+.right-side{
+    height: 455px;
+    width: 396px;
+    /* border: 3px solid green; */
+}
+.inside-right{
+    align-items: center;
+    width: 396px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px #888888;
+    padding: 10px 0 10px;
+}
+.form-field{
+    padding: 8px 14px;
+}
+.forminside{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+.form-button{
+    padding: 8px 14px;
+}
+.form-insidebutton{
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 14px 16px;
+    width: 366px;
+    background-color: blue;
+    font-weight: bold;
+    color: #fff;
+}
+.afterlogin{
+    font-size: 17px;
+    padding: 8px 14px;
+    text-align: center;
+    
+
+}
+/* .afterlogin a{
+    text-decoration: none;
+} */
+.line{
+    border-bottom: 1px solid #dadd;
+    margin: 20px 20px;
+    align-items: center;
+}
+.end-button{
+    padding: 16px  22px;
+
+}
+.insidelastbutton{
+    padding: 14px 16px;
+    background-color:rgb(26, 163, 26);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin-left: 80px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.aftercompleteform{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 17px;
+}
+.color1
+{
+    color: black;
+    font-weight: bold;
+    /* text-decoration: none; */
+}
+
+
+
+/* ###################### Sign Up page #################### */
+
+.main-containersignup{
+    padding-top: 92px ;
+    padding-bottom: 140px;
+}
+.middle-containersignup{
+    margin: 0 auto;
+    width: 450px;
+    /* border: 3px solid blue; */
+}
+.inside-middlecontainer{
+    align-items: center;
+    width: 450px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px #888888;
+    padding: 10px 0 10px;
+}
+.box-title{
+    color: #1c1e21;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.box-message{
+    margin-left: 15px;
+    color: rgb(128, 126, 126);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.alignfield{
+    display: flex;
+
+}
+
+.form-field1{
+    padding: 8px 8px 8px 12px;
+}
+.forminside1{
+    font-size: 14px;
+    padding: 14px 14px 14px 17px;
+    width: 170px;
+}
+.colorform{
+    background: rgb(240, 242, 245);
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.form-field123{
+    padding: 8px 14px;
+}
+.forminside123{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 390px;
+    line-height: 18px;
+}
+.dropdown{
+    padding: 8px 8px 8px 12px;
+    margin-left: 4px;
+}
+#calender{
+    padding: 8px 34px 8px 32px;
+    margin: 5px 5px 5px 2px;
+}
+.font{
+    font-size: 17px;
+}
+.gender-radiobutton{
+    display: flex;
+}
+.adjust{
+    margin-left: 15px;
+    color:rgb(128, 126, 126);
+    font-size: 13px;
+}
+.adjust1
+{
+    color:rgb(128, 126, 126);
+    font-size: 13px;
+}
+.gender-info{
+    padding: 8px 20px 8px 25px;
+    margin: 5px 5px 5px 18px;
+    border: 1px solid #ccd0d5;
+    border-radius: 3px;
+    position: relative;
+    width: 76px;
+}
+.padeee{
+    position: absolute;
+    top: 8px;
+    right: 1px;
+}
+.text123{
+    color:gray;
+    font-size: 11px;
+    padding: 0px 27px 12px 24px;
+}
+.insidelastbutton1
+{
+    padding: 14px 63px;
+    background-color: rgb(26, 163, 26);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin-left: 95px;
+    line-height: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
